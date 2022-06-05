@@ -1,0 +1,6 @@
+- name: running roles
+  hosts: all
+  roles: 
+   - {role: webservers} 
+   - {role: dbservers}
+   - {role: fileshare} 
