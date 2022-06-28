@@ -12,3 +12,8 @@
     name: ufw
     state: stopped  
     enabled: no
+#- name: This command will change the working directory to somedir/
+  #ansible.builtin.shell:
+    #cmd: curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest
+    #chdir: /home
+

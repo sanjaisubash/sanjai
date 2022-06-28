@@ -16,14 +16,16 @@
 ## 192.168.100.
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group:
-[webservers]
+[old]
 ## alpha.example.org
 ## beta.example.org
 ## 192.168.1.100
 ## 192.168.1.110
-100.24.4.77
-3.80.138.24
+52.23.233.158
 
+[new]
+
+3.93.10.66
 # If you have multiple hosts following a pattern, you can specify
 # them like this:
 

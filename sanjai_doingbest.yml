@@ -1,6 +1,9 @@
 - name: running roles
-  hosts: all
+  hosts: new
   roles: 
    - {role: webservers} 
-   - {role: dbservers}
+
+- name: running roles
+  hosts: old
+  roles:
    - {role: fileshare} 

@@ -1,2 +1,6 @@
 ---
-# tasks file for fileshare
+- name: Create a backup directory if it does not exist
+  ansible.builtin.file:
+    path: /home/backup
+    state: directory
+    mode: '0755'
